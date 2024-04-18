@@ -1,0 +1,41 @@
+.side-bar{
+    padding: 0 10px 0 10px;
+    margin: 0;
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    overflow: auto;
+    border-right: solid 1px rgb(198, 196, 196);
+}
+.side-link{
+    text-decoration: none;
+    color: var(--black);
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    padding: 16px;
+    border-radius: 12px;
+    display: block;
+}
+.active{
+    background-color: var(--grey);
+    font-weight: bold;
+}
+.side-link:hover{
+    background-color: var(--grey);
+}
+@media screen and (max-width:700px) {
+    .side-bar{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .side-link{
+        float: left;
+    }
+}
+@media screen and (max-width:400px) {
+    .side-bar{
+        text-align: center;
+        float: none;
+    }
+}

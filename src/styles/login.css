@@ -1,0 +1,32 @@
+
+.login-container{
+    margin: 40px auto 20px auto;
+}
+.connecter-compte{
+    font-family: "Inter",sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+}
+#inscrire-emp,#inscrire-en{
+    background-color: var(--grey);
+    color: var(--black);
+}
+#inscrire-emp{
+    margin-right: 10px;
+}
+.link-style{
+    text-decoration: none;
+    color: var(--black);
+}
+.sign-ups{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+}
+p{
+    color: var(--greyblue);
+    text-align: center;
+    font-family: "Inter",sans-serif;
+}

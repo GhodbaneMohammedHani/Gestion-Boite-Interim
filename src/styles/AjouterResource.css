@@ -1,0 +1,18 @@
+#ajouter-resource{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ajouter-resource{
+    margin-top: 20px;
+}
+.resource-buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.resource-buttons>#annuler{
+    background-color: var(--grey);
+    color: black;
+    margin-right: 20px;
+    border: solid 1px black;
+}

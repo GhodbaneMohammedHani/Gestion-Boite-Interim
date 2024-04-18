@@ -1,0 +1,58 @@
+.en-container{
+    margin-left: 225px;
+}
+table {
+    max-width: 1000px;
+    width: auto;
+    margin: 20px auto 20px auto;
+    border: solid 2px var(--grey);
+    border-radius: 12px;
+    font-family: "Inter",sans-serif;
+}
+td{
+    border-top: solid 2px var(--grey);
+    color: var(--greyblue);
+}
+.fullname{
+    color: black;
+}
+th{
+    text-align: left;
+}
+td,tr,th{
+    padding:10px 0 10px 10px;
+    width: 400px;
+}
+.en-container>h1{
+    font-family: "Inter",sans-serif;
+    margin-left: 40px;
+}
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey);
+    margin: 20px 40px 20px 40px;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+.search-bar>input::placeholder{
+    color: var(--greyblue);
+    font-size: 20px;
+}
+.search-bar>input{
+    font-size: 20px;
+}
+.search-bar>input:focus{
+    outline: none;
+}
+.search-font{
+    font-size: 20px;
+    color: var(--greyblue)
+}
+.voir-profiles{
+    width: auto;
+    min-width: 150px;
+    padding: 0 auto 0 auto;
+}

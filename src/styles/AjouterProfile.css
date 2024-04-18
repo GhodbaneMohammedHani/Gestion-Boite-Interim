@@ -1,0 +1,26 @@
+textarea{
+    padding:10px 0 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: var(--grey);
+    font-size: 16px;
+    color: var(--greyblue);
+}
+#nom-profile{
+    font-weight: 450;
+}
+#nom-profile:focus{
+    color: var(--greyblue);
+}
+textarea::placeholder{
+    color: var(--greyblue);
+}
+textarea:focus{
+    outline: none;
+    border: solid 1px black;
+    color: var(--greyblue);
+}
+.ajouter-profile{
+    margin-left: 100px;
+}

@@ -1,0 +1,28 @@
+.demandes-container{
+    margin-left: 225px;
+}
+.demande{
+    padding: 20px;
+    border: solid 1px gray;
+    border-radius: 8px;
+    width: 75%;
+    margin: 20px auto 20px 20px;
+    background-color: var(--white);
+}
+.demande>p{
+text-align: left;
+}
+.demande>button{
+    margin-left: 85%;
+}
+#refuser-demande{
+    background-color: var(--grey);
+    color: var(--black);
+    margin-left: 10px;
+    border: solid 1px gray;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

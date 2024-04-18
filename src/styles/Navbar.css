@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+.logo-container>img{
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 50px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 2px var(--grey)
+}
+li{
+    list-style: none;
+}
+.nav-list{
+    margin-right: 20px;
+}
+#redirect-login{
+    margin-left: 10px;
+}
+.compte-options{
+    display: flex;
+    
+}
+.compte-info{
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: solid 2px black;
+}
+.compte-info:hover{
+    background-color: var(--grey);
+    cursor: pointer;
+}
+.user-icon{
+    font-size: 16px;
+    margin-right: 5px;
+}

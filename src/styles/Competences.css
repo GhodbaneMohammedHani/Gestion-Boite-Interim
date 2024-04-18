@@ -1,0 +1,48 @@
+.container{
+    margin-left: 250px;
+    padding: 10px;
+}
+.container>h1{
+    font-family: "Inter",sans-serif;
+}
+.container>h3{
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.list-competences{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.competence{
+    background-color: var(--grey);
+    color: var(--black);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 20px;
+    font-family: 'Inter',sans-serif;
+}
+.competence:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ajouter-competence{
+    margin: 20px auto 20px 250px;
+}
+.ajouter-competence>a>button{
+    background-color: var(--grey);
+    color:var(--black);
+    padding: 10px 100px;
+}
+.ajouter-competence>a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:700px) {
+    .container{
+        margin-left: 0;
+    }
+}

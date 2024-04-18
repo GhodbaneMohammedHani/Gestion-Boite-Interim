@@ -1,0 +1,31 @@
+input{
+    padding: 15px;
+    background-color: var(--grey);
+    color: var(--greyblue);
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.error{
+    font-size: 16px;
+    font-family: "Inter",sans-serif;
+    color: var(--greyblue);
+    margin-left: 20px;
+}
+input::placeholder{
+    color: var(--greyblue);
+    font-size: 16px;
+}
+input:focus{
+    color: var(--greyblue);
+}
+label{
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+}
+.input-control{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

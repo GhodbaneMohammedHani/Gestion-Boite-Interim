@@ -1,0 +1,12 @@
+select{
+    width: 100%;
+    padding: 15px;
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    color: var(--greyblue);
+    background-color: var(--grey);
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

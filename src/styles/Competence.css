@@ -1,0 +1,46 @@
+body:has(.competence-container){
+    overflow: hidden;
+}
+.competence-container{
+    margin-left: 250px;
+    height: 85vh;
+    overflow-y: scroll;
+}
+.competence-container{
+    font-family: "Inter",sans-serif;
+}
+.list-moyen-element{
+    list-style-type: disc;
+    font-family: "Inter",sans-serif;
+}
+.description-competence{
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
+    background-color: var(--grey);
+    width: 80%;
+}
+.description-competence>p{
+    text-align: left;
+    font-size: 20px;
+}
+.description-competence>legend{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Inter';
+}
+.moyen-container{
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.moyen-icon{
+    margin: auto 20px auto 20px;
+    font-size: 40px;
+}
+.moyen-description>p{
+    text-align: left;
+}
+

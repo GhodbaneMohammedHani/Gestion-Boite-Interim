@@ -1,0 +1,23 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 500px;
+}
+.sign-up-enterprise,.sign-up-employe{
+    margin: 0 auto 20px auto;
+}
+form>h1{
+    font-size: 28px;
+    font-family: "Inter",sans-serif;
+}
+form>button{
+    align-self: flex-end;
+    width: 25%;
+    margin-top: 20px;
+}
+.cree-compte{
+    font-family: 'Inter',sans-serif;
+    font-weight: bolder;
+}
+

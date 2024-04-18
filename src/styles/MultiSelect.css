@@ -1,0 +1,35 @@
+.select-button{
+    background-color: var(--grey);
+    color: var(--greyblue);
+    border-radius: 8px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 450;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.select-option{
+    background-color: var(--grey);
+    color: var(--greyblue);
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+}
+.option-list{
+    display: none;
+    z-index: 1;
+}
+.select-option>input[type='checkbox']{
+width: 20px;
+height: 20px;
+margin-left: auto;
+}
+.select-option:hover{
+    background-color: var(--blue);
+    color: white;
+}
+.select-option>label{
+    font-weight: 450;
+}
